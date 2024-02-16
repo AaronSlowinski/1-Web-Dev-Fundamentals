@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+</head>
+<body>
+
+    <header>
+        <h1>Profile Name</h1>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>This is a brief description about me.</p>
+	 <ul>
+            Where were you born
+	where do you live now
+
+What was the best job you've ever had?  And the worst?
+What is your current occupation / job?
+
+        </ul>
+
+    </section>
+
+    <section>
+        <h2>Photos</h2>
+        <img src="photo1.jpg" alt="Photo 1">
+        <img src="photo2.jpg" alt="Photo 2">
+    </section>
+
+    <section>
+        <h2>Links</h2>
+        <ul>
+            <li><a href="https://example.com" target="_blank">Link 1</a></li>
+            <li><a href="https://example2.com" target="_blank">Link 2</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Lists</h2>
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+        </ul>
+        <ul>
+            <li>Another List Item 1</li>
+            <li>Another List Item 2</li>
+        </ul>
+    </section>
+
+</body>
+</html>
