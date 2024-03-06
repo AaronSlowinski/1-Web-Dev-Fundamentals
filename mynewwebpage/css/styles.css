@@ -44,7 +44,7 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: black;
+            background-color: white;
             border-radius: 5px;
             margin-top: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -83,7 +83,7 @@
 
         button {
             background-color: #007BFF;
-            color: black;
+            color: red;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
@@ -94,10 +94,10 @@
             text-align: center;
             padding: 1em;
             background-color: #232323;
-            color: black;
+            color:white;
         }
 
-.box {
+.project-box {
     width: 200px;
     height: 100px;
     border: 1px solid black;
