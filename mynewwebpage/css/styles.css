@@ -105,3 +105,10 @@
     margin: 10px;
     border-style: solid; /* Add this line */
 }
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel {
+    border: solid #5637DD;
+}
