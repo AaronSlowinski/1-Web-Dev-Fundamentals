@@ -36,7 +36,8 @@
     <fieldset>
         <legend>Your information</legend>
             <div>
-                first name: <input type="text" name="firstname" placeholder="first name" required>
+                <label for="firstname"> First Name </label>
+                <input type="text" name="firstname" placeholder="Your first name" required/>
             </div>
 
             <div>
@@ -47,9 +48,22 @@
     </fieldset>
     <fieldset>
         <legend>Survey Questions</legend>
+        <div>
+            <input type="radio" name="sport" value="baseball"/> baseball
+            <input type="radio" name="sport" value="rugby"/> Rugby
+            <input type="radio" name="sport" value="snowboarding"/> Snowboarding
+        </div>    
+
+        <div>
+            Your Pets:
+            <input type="checkbox" name="pets" value="dog"/> Dog
+            <input type="checkbox" name="pets" value="cat"/> Cat
+            <input type="checkbox" name="pets" value="Iguana"/> Iguana
+
+        </div>
 
     </fieldset>
-
+    <input type="submit" value="submit">
 
 
 </form>
