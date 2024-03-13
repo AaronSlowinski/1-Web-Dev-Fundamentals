@@ -7,6 +7,18 @@
 <!--CSS-->
 <link rel="stylesheet" href="css/survey.css" />
 <style> 
+h1{ 
+    text-align: center;
+}
+
+.survey-form {
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
  #submit-btn {
      background-color: #4CAF50;
      color: white;
@@ -48,8 +60,8 @@
 <video src="video/install-extension.mp4" controls loop> reload the video its not supported <a href="videos/install-extension">a link to the video</a></video>
 
 </section>
-<h2> Survey </h2>
-<form action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
+<h1> Survey </h1>
+<form class= "survey-form" action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
     <fieldset>
         <legend>Your information</legend>
             <div>
